@@ -191,6 +191,10 @@ footer {
 // media querys mobile
 @media screen and (max-width: 600px) {
   nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
     .div1 {
       width: 100%;
       justify-content: space-around;
